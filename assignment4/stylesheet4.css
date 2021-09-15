@@ -1,0 +1,81 @@
+
+body {
+  font-family: sans-serif;
+  background-image: url(images/page2.jpg);
+}
+
+
+.picborder {
+  border: 10px solid #000000;
+  padding: 5px;
+  background-color: #FFFFFF;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: #FFA500;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h2 {
+  color: #FFA500;
+  font-style: italic;
+  font-weight: normal;
+
+}
+
+h3 {
+  color: #FFA500;
+  font-style: italic;
+  font-weight: normal;
+
+}
+
+h4 {
+  color: #FFA500;
+  font-style: italic;
+  font-weight: normal;
+
+}
+
+#specialcase {
+  color: #BF3FBF;
+  background-color: #274E13;
+}
+
+#divlist {
+  color: #EEAECE;
+}
+
+.justin {
+  text-align: justify;
+}
+
+.center {
+  text-align: center;
+}
+
+.fancy {
+  color: #DA1818;
+}
+
+a:link {
+ color: #BF3F3F;
+}
+
+a:visited {
+ color: #3FBF3F;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+footer {
+  color: #a52a2a;
+  background-color #AED0EE:
+}
