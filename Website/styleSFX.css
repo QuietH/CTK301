@@ -6,22 +6,23 @@
   box-sizing: border-box;
 }
 
-
-
-.video-bg {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 201.78vh;
-  object-fit: cover;
+#black {
+  background-color: black;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
-
-
-
-
+.video-bg {
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 
 
 
@@ -30,7 +31,6 @@ header {
   height: 400px;
   display: grid;
   place-items: center;
-  background: #0a0908;
   color: #f7f7ff;
 }
 
@@ -72,7 +72,7 @@ header {
 
 .glitch::before,
 .glitch::after {
-  background: #0a0908;
+  background: black;
   color: #f7f7ff;
   content: attr(data-text);
   position: absolute;
