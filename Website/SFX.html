@@ -7,6 +7,8 @@
 
       <title>SFX</title>
 
+      <link rel = "icon" href = "icon.png">
+
       <link rel="stylesheet" href="styleSFX.css">
 
       <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
@@ -16,36 +18,53 @@
 
 <div id="black">
 
+
+
+
+<body>
+
+
+<div id="wrapper">
+
+
+
 <header>
 
-      <div class="container">
-            <div class="glitch" data-text="SFX">SFX</div>
-      </div>
-      <script type="text/javascript">
+        <div id="glitch" data-text="SFX">SFX</div>
 
-      const text = baffle(".glitch");
-      text.set({
-            characters : '!▓&▒░/░█@░▒▓/▒*▒ @▒▓/█░#▒/▒▓%░$█<░▒/░>',
-            speed: 180
-      });
-      text.start();
-      text.reveal(4000);
-
-      </script>
 
 
 </header>
 
-<body>
 
   <video class="video-bg" autoplay muted loop>
       <source src="background.mp4" type="video/mp4">
   </video>
 
 
+
+</div>
+
 </body>
 
+<script type="text/javascript">
+  const text = baffle("#glitch");
+  text.set({
+        characters : '!▓&▒░/░█@░▒▓/▒*▒@▒▓/█░#▒/▒▓%░$█<░▒/░>',
+        speed: 180
+      });
+      text.start();
+      text.reveal(4000);
 
+      let glitchID = document.getElementById("glitch");
+
+  glitchID.addEventListener("mouseenter", function( event ) {
+  text.start();
+  text.reveal(4000);
+
+}, false);
+
+</script>
 
 
 </html>
