@@ -8,6 +8,7 @@
 }
 
 
+
 #wrapper {
   margin: 1em auto;
   width: 1200px;
@@ -23,17 +24,12 @@
   z-index: -1;
 }
 
-#showcase {
-
-}
-
 header {
   font-family: "Poppins", sans-serif;
   display: grid;
   place-items: center;
   color: #f7f7ff;
   /* margin-bottom: 50px; */
-  margin-top: 5vh;
   margin-bottom: 5vh;
 }
 
@@ -46,15 +42,13 @@ header {
   text-align: center;
 }
 
-body img {
 
+.image {
   margin-right: 25px;
   margin-left: 55px;
   margin-bottom: 50px;
+  position: relative;
 }
-
-
-
 
 
 
