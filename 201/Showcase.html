@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+      <title>Hamza Agha</title>
+
+      <link rel = "icon" href = "icon.png">
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+      <link rel="stylesheet" href="styleshow.css">
+
+      <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+</head>
+
+
+<div id="black">
+
+<body style="background-color:black;">
+
+<div id="wrapper">
+
+<header>
+
+<div id="glitch" data-text="HAMZA AGHA">HAMZA AGHA</div>
+
+<video class="video-bg" autoplay muted loop>
+    <source src="background.mp4" type="video/mp4">
+</video>
+
+</header>
+
+
+
+
+    <!-- The thumbnails are 200px by 200px -->
+
+<div class="container">
+
+  <a href="Images/uncomfortable.jpg" data-fancybox="gallery" data-caption= "Uncomfortable Art" ><img src="Images/Thumbnails/uncT.jpg" class="image"></a>
+
+
+
+  <a href="Images/data.jpg" data-fancybox="gallery" data-caption= "Data Representation" > <img src="Images/Thumbnails/dataT.jpg" class="image"></a>
+
+
+
+  <a href="Images/habit.jpg" data-fancybox="gallery" data-caption= "Daily Habit" > <img src="Images/Thumbnails/habitT.jpg" class="image"></a>
+
+
+
+  <a href="Images/HITME.jpg" data-fancybox="gallery" data-caption= "Random Act of Vandalism" > <img src="Images/Thumbnails/hitT.jpg" class="image"></a>
+
+
+  <a href="Images/Marco.jpg" data-fancybox="gallery" data-caption= "100 Artists" > <img src="Images/Thumbnails/100T.jpg" class="image"></a>
+
+
+  <a href="Images/chainsawman.jpg" data-fancybox="gallery" data-caption= "Remix" > <img src="Images/Thumbnails/chainthumb.jpg" class="image"></a>
+
+
+  <a href="Images/presentation.png" data-fancybox="gallery" data-caption= "Presentation on Hideaki Anno"> <img src="Images/Thumbnails/preT.jpg" class="image"></a>
+
+
+
+
+</div>
+
+
+
+<img src="Images/banner.png" class="banner">
+
+
+<!-- <nav>
+  <ul>
+    <div class="slide-effect2">
+      <li><a href="Main.html" class="cool-underline">Home</a></li>
+      <li><a href="Game.html" class="cool-underline">Games</a></li>
+      <li><a href="SFX.html" class="cool-underline">SFX</a></li>
+    </div>
+  </ul>
+</nav> -->
+
+
+
+</body>
+
+<footer>
+
+<p>
+  <a href="https://www.twitch.tv/tquiet" target="_blank" class="bi bi-twitch"></a>
+  <a href="https://twitter.com/Quiet737" target="_blank" class="bi bi-twitter"></a>
+</p>
+
+</footer>
+
+<script type="text/javascript">
+  const text = baffle("#glitch");
+  text.set({
+        characters : '!▓&▒░/░█@░▒▓/▒*▒@▒▓/█░#▒/▒▓%░$█<░▒/░>',
+        speed: 180
+      });
+      text.start();
+      text.reveal(4000);
+
+      let glitchID = document.getElementById("glitch");
+
+  glitchID.addEventListener("mouseenter", function( event ) {
+  text.start();
+  text.reveal(4000);
+
+}, false);
+
+</script>
+
+</html>
