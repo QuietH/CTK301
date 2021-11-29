@@ -29,10 +29,26 @@ header {
   display: grid;
   place-items: center;
   color: #f7f7ff;
-  /* margin-bottom: 50px; */
-  margin-bottom: 5vh;
+  padding-top: 8vh;
 }
 
+header {
+  opacity:0;
+}
+
+.slide-effect {
+  overflow: hidden;
+}
+
+header {
+  top: 60px;
+  animation: header ease 1.2s forwards .2s;
+}
+
+@keyframes header {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(-40px);opacity:1;}
+}
 
 
 .fancybox__caption {
@@ -48,7 +64,25 @@ header {
   margin-left: 55px;
   margin-bottom: 50px;
   position: relative;
+  opacity: 0;
 }
+
+
+.slide-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  top: 40px;
+  animation: image ease 1.2s forwards .2s;
+}
+
+@keyframes image {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(-40px);opacity:1;}
+}
+
 
 
 
@@ -71,6 +105,7 @@ nav li {
   width: 320px;
   display: inline-block;
   margin-right: 10px;
+  margin-top: 80px;
 }
 
 nav li a {
@@ -78,9 +113,31 @@ nav li a {
   text-decoration: none;
   place-items: center;
   font-family: "Poppins", sans-serif;
-  font-size: 70px;
+  font-size: 60px;
   display: inline-block;
 }
+
+nav li a {
+  opacity:0;
+  padding: 0;
+}
+
+.slide-effect2 {
+  position: relative;
+  overflow: hidden;
+}
+
+nav li a {
+  top: 20px;
+  animation: a ease 1.2s forwards 1.0s;
+}
+
+@keyframes a {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(-10px);opacity:1;}
+}
+
+
 
 .cool-underline::after {
   content: ' ';
