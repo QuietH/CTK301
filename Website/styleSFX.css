@@ -41,6 +41,7 @@ header {
   position: relative;
   width: 300px;
   border-radius: 50px 50px 30px 30px;
+  background-color: black;
   display: inline-block;
   margin-right: 25px;
   margin-left: 55px;
