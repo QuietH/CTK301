@@ -7,7 +7,7 @@
 
       <title>Games</title>
 
-      <link rel = "icon" href = "icon.png">
+      <link rel = "icon" href = "Images/icon.png">
 
       <link rel="stylesheet" href="styleGame.css">
 
@@ -15,12 +15,15 @@
 
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
     </head>
 
 
+<body style="background-color:black;">
+
 <div id="black">
 
-<body style="background-color:black;">
 
 <div id="wrapper">
 
@@ -36,91 +39,67 @@
 
 
   <video class="video-bg" autoplay muted loop>
-      <source src="background.mp4" type="video/mp4">
+      <source src="Images/background.mp4" type="video/mp4">
   </video>
 
 
 </div>
 
-
+<div class="slide-effect">
+  <div class="buttons">
+    <form action="https://quieth.itch.io/jet-alone-version-2" method="get" target="_blank">
+      <button type="submit" class="btn-hover color-8">
+        <img src="Images/Games/jetalone2.png" alt="Jet Alone Prototype V2" />
+      </button>
+    </form>
+  </div>
+</div>
 
 
   <div class="slide-effect">
     <div class="buttons">
       <form action="https://quieth.itch.io/jet-alone-prototype" method="get" target="_blank">
         <button type="submit" class="btn-hover color-8">
-          <img src="Images/Games/jetalone.png" />
+          <img src="Images/Games/jetalone.png" alt="Jet Alone Prototype V1" />
         </button>
       </form>
     </div>
   </div>
 
 
-  <div class="slide-effect">
-    <div class="buttons">
-        <button class="btn-hover color-8">Other Prototype Game</button>
-    </div>
-  </div>
-
-
-
-<!-- <div class="slide-effect">
-  <div class="gameshow">
-    <img src="Images/gameborder.png" class="banner">
-  </div>
-</div> -->
-
-
-
-
-
-
 <nav>
-  <ul>
     <div class="slide-effect2">
-      <li><a href="Main.html" class="cool-underline">Home</a></li>
-      <li><a href="Asset.html" class="cool-underline">Assets</a></li>
-      <li><a href="SFX.html" class="cool-underline">SFX</a></li>
+      <ol>
+        <li><a href="Main.html" class="cool-underline">Home</a></li>
+        <li><a href="Asset.html" class="cool-underline">Assets</a></li>
+        <li><a href="SFX.html" class="cool-underline">SFX</a></li>
+      </ol>
     </div>
-  </ul>
 </nav>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
-
 <footer>
 
-<p> Social Media
-  <a href="https://www.twitch.tv/tquiet" target="_blank" class="bi bi-twitch"></a>
-  <a href="https://twitter.com/Quiet737" target="_blank" class="bi bi-twitter"></a>
-</p>
+  <div class="slide-effect2">
+    <p>
+      <a href="https://twitter.com/Quiet737" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+
+      <a href="https://www.twitch.tv/tquiet" target="_blank" >
+        <i class="fab fa-twitch"></i>
+      </a>
+    </p>
+  </div>
 
 </footer>
 
 
+</div>
 
-
-<script type="text/javascript">
+<script>
   const text = baffle("#glitch");
   text.set({
         characters : '!▓&▒░/░█@░▒▓/▒*▒@▒▓/█░#▒/▒▓%░$█<░▒/░>',
@@ -138,5 +117,8 @@
 }, false);
 
 </script>
+
+
+</body>
 
 </html>

@@ -7,21 +7,20 @@
 
       <title>SFX</title>
 
-      <link rel = "icon" href = "icon.png">
+      <link rel = "icon" href = "Images/icon.png">
 
       <link rel="stylesheet" href="styleSFX.css">
 
       <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
 
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
     </head>
 
+<body style="background-color:black;">
 
 <div id="black">
 
-
-
-
-<body style="background-color:black;">
 
 
 <div id="wrapper">
@@ -32,43 +31,84 @@
 
         <div id="glitch" data-text="SFX">SFX</div>
 
-
-
 </header>
 
 
   <video class="video-bg" autoplay muted loop>
-      <source src="background.mp4" type="video/mp4">
+      <source src="Images/background.mp4" type="video/mp4">
   </video>
 
 
+
+
+
+<div class="slide-effect">
+  <div class="player">
+    <div class="imgBox">
+      <img src="Images/SFX/OwT.jpg" alt="Look Above">
+    </div>
+    <audio controls>
+      <source src="Images/SFX/Ow.mp3" type="audio/mpeg">
+      </audio>
+  </div>
+
+  <div class="player">
+    <div class="imgBox">
+      <img src="Images/SFX/BaT.jpg" alt="War">
+    </div>
+    <audio controls>
+      <source src="Images/SFX/raid.mp3" type="audio/mpeg">
+      </audio>
+  </div>
+
+  <div class="player">
+    <div class="imgBox">
+      <img src="Images/SFX/SnT.jpg" alt="Just to Suffer">
+    </div>
+    <audio controls>
+      <source src="Images/SFX/suffer.mp3" type="audio/mpeg">
+      </audio>
+  </div>
 
 </div>
 
 
 
+
+
+
 <nav>
-  <ul>
     <div class="slide-effect2">
-      <li><a href="Main.html" class="cool-underline">Home</a></li>
-      <li><a href="Asset.html" class="cool-underline">Assets</a></li>
-      <li><a href="SFX.html" class="cool-underline">SFX</a></li>
+      <ol>
+        <li><a href="Main.html" class="cool-underline">Home</a></li>
+        <li><a href="Asset.html" class="cool-underline">Assets</a></li>
+        <li><a href="SFX.html" class="cool-underline">SFX</a></li>
+      </ol>
     </div>
-  </ul>
 </nav>
 
 
+<footer>
 
+  <div class="slide-effect2">
+    <p>
+      <a href="https://twitter.com/Quiet737" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
 
+      <a href="https://www.twitch.tv/tquiet" target="_blank" >
+        <i class="fab fa-twitch"></i>
+      </a>
+    </p>
+  </div>
 
+</footer>
 
+</div>
 
+</div>
 
-
-
-</body>
-
-<script type="text/javascript">
+<script>
   const text = baffle("#glitch");
   text.set({
         characters : '!▓&▒░/░█@░▒▓/▒*▒@▒▓/█░#▒/▒▓%░$█<░▒/░>',
@@ -87,5 +127,6 @@
 
 </script>
 
+</body>
 
 </html>
