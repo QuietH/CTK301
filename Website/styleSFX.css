@@ -34,7 +34,9 @@ header {
 }
 
 
-
+.container {
+  text-align: center;
+}
 
 
 .player {
@@ -44,7 +46,7 @@ header {
   background-color: black;
   display: inline-block;
   margin-right: 25px;
-  margin-left: 55px;
+  margin-left: 25px;
   margin-bottom: 50px;
 }
 
@@ -109,7 +111,7 @@ nav li {
   width: 320px;
   display: inline-block;
   margin-right: 10px;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 nav li a {
@@ -244,7 +246,7 @@ footer {
   font-size: 100px;
   font-weight: bold;
 }
-
+/*
 #glitch::before,
 #glitch::after {
   background: black;
@@ -398,4 +400,4 @@ footer {
   100% {
     clip-path: inset(36% 0 25% 0);
   }
-}
+} */

@@ -87,14 +87,21 @@ header {
 }
 
 
+.container {
+  text-align: center;
+}
 
+.image {
+  height: 239px;
+  border-radius: 20px;
+}
 
 .hoverwrap {
   position: relative;
   max-width: 500px;
   display: inline-block;
   margin-right: 25px;
-  margin-left: 55px;
+  margin-left: 25px;
   margin-bottom: 50px;
 }
 
@@ -289,7 +296,7 @@ footer {
   font-size: 100px;
   font-weight: bold;
 }
-
+/*
 #glitch::before,
 #glitch::after {
   background: black;
@@ -443,4 +450,4 @@ footer {
   100% {
     clip-path: inset(36% 0 25% 0);
   }
-}
+} */

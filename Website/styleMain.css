@@ -275,7 +275,7 @@ footer {
   z-index: 10000;
 }
 
-#glitch::before,
+/* #glitch::before,
 #glitch::after {
   background: black;
   color: #f7f7ff;
@@ -428,4 +428,4 @@ footer {
   100% {
     clip-path: inset(36% 0 25% 0);
   }
-}
+} */
